@@ -1,0 +1,60 @@
+/* CSS for tablets and mobile devices */
+@media screen and (max-width: 768px) {
+  /* Adjust the styles of the top-container */
+  .top-container {
+    text-align: center;
+    padding-top: 150px;
+  }
+  .top-container h1 {
+    font-size: 36px;
+  }
+  .top-container h2 {
+    font-size: 24px;
+  }
+  
+  /* Adjust the position of the fixed image */
+  div[style*="position: fixed;"] {
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Adjust the styles of the profile section */
+  .profile {
+    text-align: center;
+  }
+  .profile img {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  /* Adjust the font size and padding of the skills section */
+  .skills h2 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+  .skills h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Adjust the styles of the contact me section */
+  .contact-me h2 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+  .contact-me h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Adjust the font size and padding of the footer section */
+  .bottom-container .footer-link {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .bottom-container p.jagdip1 {
+    font-size: 12px;
+  }
+}
